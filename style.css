@@ -82,6 +82,12 @@
   text-decoration: none;
 }
 
+@media (max-width:800px){
+.bio-container {
+        padding:20px;
+    }
+}
+
 /* card */
 .container{
     background: #F6E7D8;
