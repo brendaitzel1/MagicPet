@@ -83,8 +83,13 @@ body {
   background: #EC9B3B;
 }
 
-/* Buttons' focus effect */
 .login input[type="submit"]:focus ,
 .registre input[type="submit"]:focus {
   border-color: #000;
+}
+
+@media (min-width:768px) and (max-width:1199px){
+  .login, .registre{
+      padding:20px;
+  }
 }

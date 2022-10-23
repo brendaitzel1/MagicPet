@@ -82,8 +82,8 @@
   text-decoration: none;
 }
 
-@media (max-width:800px){
-.bio-container {
+@media (min-width:768px) and (max-width:1199px){
+.bio-container, .bio-img {
         padding:20px;
     }
 }
@@ -113,7 +113,7 @@
 .container .box-container .box{
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 8px;
-    background: aliceblue;
+    background: white;
     text-align: center;
     padding:30px 20px;
 }
@@ -155,7 +155,7 @@
     transform: scale(1.03);
 }
 
-@media (max-width:800px){
+@media (min-width:768px) and (max-width:1199px){
     .container{
         padding:20px;
     }
